@@ -1,0 +1,129 @@
+body {
+    max-width: 1440px;
+    background: url(../images/bg-desktop.svg) no-repeat;
+    background-size: cover;
+    background-color: hsl(257, 40%, 49%);
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 30px;
+}
+
+.principal {
+    max-width: 1330px;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+
+.principal .cabecalho {
+    height: 100px;
+    max-width: 250px;
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.principal .cabecalho a {
+    cursor: pointer;
+}
+
+.principal .cabecalho a .logo {
+    height: 50px;
+}
+
+.principal .conteudo {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.principal .conteudo .conteiner {
+    max-width: 700px;
+    min-width: 60%;
+    height: 100%;
+}
+
+.principal .conteudo .conteiner .ilustracao {
+    width: 100%;
+}
+
+.principal .conteudo .container-infor {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 400px;
+    margin-left: 20px;
+    max-width: 450px;
+    padding: 20px;
+}
+
+.principal .conteudo .container-infor h1 {
+    max-width: 380px;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.1rem;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.principal .conteudo .container-infor p {
+    max-width: 390px;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.principal .conteudo .container-infor .btn-register {
+    width: 160px;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 1rem;
+    border: none;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    box-shadow: 2px 1px 1px 2px rgb(0 0 0 / 26%);
+    cursor: pointer;
+    transition: ease-in-out 0.2s;
+}
+
+.principal .conteudo .container-infor .btn-register:hover{
+    background-color: hsl(300, 69%, 71%);
+    color: #fff;
+}
+
+.principal footer {
+  margin-right: 60px;
+  padding: 20px;
+}
+
+.principal footer .social {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    gap: 20px;
+}
+
+.principal footer .social a {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    transition: ease-in-out 0.2s;
+}
+
+.principal footer .social a i {
+    font-size: 1.2rem;    
+}
+
+.principal footer .social a:hover{
+    color: hsl(300, 69%, 71%);
+    border-color: hsl(300, 69%, 71%);
+}
